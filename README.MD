@@ -1,10 +1,13 @@
 Project Description:
+
 Node.js API with MongoDB and JWT authentication for user registration, login, and CRUD operations on posts. Secure and efficient user management.
 
 SAMPLE RESTAPİ
+
 This is a Node.js project that provides an API for user registration, login, and CRUD operations using MongoDB as the database. It includes authentication using JSON Web Tokens (JWT) to protect certain endpoints from unauthorized access.
 
 Installation
+
 To run the project locally, follow these steps:
 
 1-Clone the repository to your local machine.
@@ -19,6 +22,7 @@ Start the application: --> npm start
 
 API Endpoints
 Authentication
+
 POST /api/register
 
 Description: Register a new user.
@@ -70,8 +74,6 @@ JSON Web Tokens (JWT)
 Contributing
 If you would like to contribute to this project, please follow the guidelines in the CONTRIBUTING.md file.
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 Please make sure to replace <your_mongodb_uri> and <your_jwt_secret_key> with the actual MongoDB connection URI and your chosen JWT secret key, respectively.
 
